@@ -387,6 +387,14 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
     font-size: 15px;
     line-height: 1.5;
 }
+.custom-text{
+    position: relative;
+    top: 60px;
+    left: 225px;
+    font-size: 15px;
+
+    color: black;
+}
 /*s
 .this{
     width: 60%;
