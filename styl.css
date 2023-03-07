@@ -21,7 +21,7 @@ nav ul{
 nav a{
     font-size: 20px;
 
-    color: white;
+    color: rgb(179, 176, 176);
     text-decoration: none;
     line-height: 50px;
     position: relative;
@@ -38,8 +38,11 @@ nav .animation{
     height: 100%;
     top: 0;
     z-index: 0;
-    background: rgb(179, 178, 178);
-    border-radius: 2px;
+    background: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
     transition: all .5s ease 0;
 }
 a:nth-child(1){
@@ -108,13 +111,14 @@ nav .start-home, a:nth-child(8):hover~.animation{
     left: 890px;
 }
 
-a:nth-child(0){
-    left: 0;
-    width: 0;
+a:nth-child(1){
+    left: 160px;
+    width: 120px;
 }
-nav .start-home, a:nth-child(0):hover~.animation{
-    width: 0;
-    left: 0;
+nav .start-home, a:nth-child(1):hover~.animation{
+    width: 120px;
+    left: 120px;
+    
 }
 /*
 ul a:nth-child(1){
@@ -381,20 +385,16 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
     
 }
 
-.btn-warning input[type = "file"]{
-    cursor: pointer;
-    position: absolute;
-    font-size: 15px;
-    line-height: 1.5;
-}
+
 .custom-text{
     position: relative;
-    top: 60px;
-    left: 225px;
+    top: 50px;
+    left: -60px;
     font-size: 15px;
 
     color: black;
 }
+
 /*s
 .this{
     width: 60%;
