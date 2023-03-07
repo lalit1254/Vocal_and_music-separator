@@ -295,7 +295,7 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
     height: 80%;
 }
 .firsthalf{
-    width: 150%;
+    width: 160%;
     padding: 0 60px;
     display: flex;
     flex-direction: column;
@@ -304,12 +304,12 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
 }
 
 .Secondhalf{
-    width: 70%;
+    width: 75%;
     
 }
 
 .Secondhalf img{
-    width: 135%;
+    width: 140%;
     border: 4px solid white;
     border-radius: 20px;
     display: block;
@@ -319,7 +319,7 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
 
 .text-big{
     padding-bottom: 20px;
-    font-size: 28px;
+    font-size: 30px;
     color: black;
     
 
@@ -352,7 +352,7 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
 .banner-text{
     position: absolute;
     top: 70px;
-    left: 152px;
+    left: 147px;
     font-size: 20px;
 
     color: black;
