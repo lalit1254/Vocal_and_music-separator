@@ -39,20 +39,22 @@ nav .animation{
     top: 0;
     z-index: 0;
     background: white;
-    color: #000;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+   
+    
     transition: all .5s ease 0;
 }
 nav a:hover{
     color: black;
 
 }
+
 a:nth-child(1){
     left: 160px;
     width: 120px;
+    color: white;
 }
 nav .start-home, a:nth-child(1):hover~.animation{
     width: 0px;
@@ -62,6 +64,8 @@ nav .start-home, a:nth-child(1):hover~.animation{
  a:nth-child(2){
     left: 160;
     width: 120px;
+    
+    
     
 }
 nav .start-home, a:nth-child(2):hover~.animation{
@@ -120,13 +124,12 @@ nav .start-home, a:nth-child(8):hover~.animation{
     
 }
 
-a:nth-child(0){
+a:nth-child(1){
     left: 160px;
     width: 120px;
-    
 }
-nav .start-home, a:nth-child(0):hover~.animation{
-    width: 00px;
+nav .start-home, a:nth-child(1):hover~.animation{
+    width: 0px;
     left: 0px;
     
 }
@@ -332,7 +335,7 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
     
     width: 90%;
     position: relative;
-    
+    top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -349,19 +352,19 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
 .banner-text{
     position: absolute;
     top: 70px;
-    left: 150px;
+    left: 152px;
     font-size: 20px;
 
     color: black;
 }
 .img{
     position: absolute;
-    top: 190px;
-    left: 180px;
+    top: 199px;
+    left: 195px;
 
 }
 .img img{
-    width: 200px;
+    width: 190px;
     display: block;
     border: 0;
 
@@ -393,10 +396,10 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
     border: 0;
     cursor: pointer;
     border-radius: 7px;
-    Width: 280.01px;
+    Width: 270.01px;
     Height: 45.37px;
     Top: -0.1px;
-    Left:135px;
+    Left:145px;
     
     
 }
@@ -405,7 +408,7 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
 .custom-text{
     position: relative;
     top: 50px;
-    left: -60px;
+    left: -45px;
     font-size: 15px;
 
     color: black;
