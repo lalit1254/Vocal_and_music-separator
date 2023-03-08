@@ -29,9 +29,9 @@ nav a{
     display:inline-block;
     text-align: center;
     justify-content: center;
-    
-
 }
+
+
 
 nav .animation{
     position: absolute;
@@ -42,12 +42,15 @@ nav .animation{
     
     border-top-right-radius: 13px;
     border-top-left-radius: 13px;
+    border-bottom-left-radius: -1300px;
    
     
     transition: all .5s ease 0;
 }
 nav a:hover{
     color: black;
+    font-weight: bolder;
+    font-size: 20px;
 
 }
 
@@ -71,7 +74,11 @@ nav .start-home, a:nth-child(1):hover~.animation{
 nav .start-home, a:nth-child(2):hover~.animation{
     width: 120px;
     left: 120px;
+  
+    
 }
+
+
  a:nth-child(3){
     left: 160;
     width: 120px;
@@ -127,6 +134,7 @@ nav .start-home, a:nth-child(8):hover~.animation{
 a:nth-child(1){
     left: 160px;
     width: 120px;
+    
 }
 nav .start-home, a:nth-child(1):hover~.animation{
     width: 0px;
@@ -388,6 +396,7 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
 .btn-warning{
     position: relative;
     padding: 11px 16px;
+    box-shadow: 5px 9px #ebd5dc;
     font-size: 15px;
     line-height: 1.5;
     
@@ -402,6 +411,11 @@ nav .start-home,ul a:nth-child(0):hover~.animation{
     Left:145px;
     
     
+}
+.btn-warning:active{
+    background-color: #02491a;
+    box-shadow: 0 5px #e2a4a4;
+    transform: translateY(4px);
 }
 
 
